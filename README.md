@@ -8,6 +8,7 @@ A unified repository containing shell scripts and setup guides for Linux adminis
 scripts-consolidated/
 ├── ssh-config/           # SSH configuration and access setup
 ├── opencode/            # OpenCode installation scripts
+├── codex/               # Codex CLI install script
 ├── infrastructure/      # Proxmox and infrastructure templates
 ├── setup-docs/          # Documentation for setup and configuration
 └── README.md            # This file
@@ -58,6 +59,14 @@ sudo bash install_opencode_full.sh
 OpenAI Codex CLI setup and usage.
 
 ### Quick Start
+```bash
+curl -fsSL https://raw.githubusercontent.com/WarrenCox007/scripts-consolidated/main/codex/codex_install.sh | sudo bash
+
+codex login
+codex
+```
+
+### Manual Install
 ```bash
 npm install -g @openai/codex
 codex login
