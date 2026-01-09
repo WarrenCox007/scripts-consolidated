@@ -53,6 +53,17 @@ Complete setup scripts for OpenCode with Node.js, npm, npx, and MCP servers.
 sudo bash install_opencode_full.sh
 ```
 
+## Codex
+
+OpenAI Codex CLI setup and usage.
+
+### Quick Start
+```bash
+npm install -g @openai/codex
+codex login
+codex
+```
+
 ## Infrastructure (`infrastructure/`)
 
 Infrastructure templates and configurations.
