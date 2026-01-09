@@ -26,7 +26,7 @@ Scripts and guides for configuring SSH access on Linux servers.
 ### Quick Start
 ```bash
 # Enable SSH password authentication on a fresh server
-curl -fsSL https://raw.githubusercontent.com/WarrenCox007/Linux-scrips/main/ssh%20access.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/WarrenCox007/scripts-consolidated/main/ssh-config/ssh_access.sh | sudo bash
 ```
 
 ### Port Forwarding Example
